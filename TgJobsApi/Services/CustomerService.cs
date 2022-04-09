@@ -28,7 +28,7 @@ namespace TgJobsApi.Services
         }
 
         /// <summary>
-        /// Retornar los clientes y sus prodcutos comprados
+        /// Retornar los clientes y sus productos comprados
         /// </summary>
         /// <returns></returns>
         public IEnumerable<CustomerDto> GetCustomerProducts()

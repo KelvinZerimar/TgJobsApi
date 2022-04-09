@@ -37,11 +37,14 @@ namespace Domain.DomainEntities
 
         // Solución Ejercicio 4: variable privada para asignar el total de la venta
         private double _total;
-        public double Total { get {
-                 SalesOrderDetails.ForEach(x => { _total += x.Price; });
+        public double Total { 
+            get {
+                SalesOrderDetails.ForEach(x => { _total += x.Price; });
                 return _total;
             }
-            set { } } 
+            set { //...
+            } 
+        } 
         
         public virtual List<SalesOrderDetail> SalesOrderDetails { get; set; }
     }

@@ -18,7 +18,7 @@ namespace TgJobsAPI.Services
         }
 
         /// <summary>
-        /// 
+        /// Obtener el producto más vendido
         /// </summary>
         /// <returns></returns>
         public ProductDto GetTopProduct()

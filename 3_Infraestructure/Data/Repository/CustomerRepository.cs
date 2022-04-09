@@ -51,7 +51,7 @@ namespace Infrastructure.Data.Repository
         }
 
         /// <summary>
-        /// Obtener un customer usando async/await
+        /// Obtener un customer de forma asincrona
         /// </summary>
         /// <returns></returns>
         public async Task<IEnumerable<Customer>> getCustomerFromApiAsync() {
